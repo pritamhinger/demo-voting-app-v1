@@ -11,6 +11,5 @@ spec:
     - port: 5432
       targetPort: 5432
   selector:
-    matchLabels:
-      name: db-pod
-      app: demo-voting-app
+    name: db-pod
+    app: demo-voting-app

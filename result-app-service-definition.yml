@@ -11,6 +11,5 @@ spec:
     - port: 80
       targetPort: 80
   selector:
-    matchLabels:
-      name: result-app-pod
-      app: demo-voting-app
+    name: result-app-pod
+    app: demo-voting-app
