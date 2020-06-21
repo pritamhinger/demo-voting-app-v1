@@ -9,4 +9,6 @@ spec:
   containers:
     - name: voting-app-pod
       image: dockersamples/examplevotingapp_vote
+      ports:
+        - containerPort: 80
   
